@@ -38,11 +38,7 @@ US_Road_Accidents_Analytics/
 │
 ├── 📁 data/
 │   ├── 📁 raw/
-│   │   └── US_Accidents_March23.zip        # 7M+ accident records
-│   └── 📁 processed/
-│       ├── cleaned_data.csv
-│       ├── fact_accidents.csv
-│       └── dimension_tables/
+│       └── US_Accidents_March23.zip        # 7M+ accident records
 │
 ├── 📁 notebooks/
 │   └── 📁 analysis/
@@ -51,9 +47,6 @@ US_Road_Accidents_Analytics/
 │
 ├── 📁 docs/
 │   └── DataWarehouse_RoadAccident_ERD.pgerd  # ER Diagram
-│
-├── 📁 results/
-│   └── 📁 figures/                         # Visualization outputs
 │
 └── README.md
 ```
@@ -248,7 +241,6 @@ Leverage clean warehouse data to predict accident severity and discover hidden p
 | Python | 3.8+ |
 | PostgreSQL or MySQL | Latest stable |
 | Jupyter Notebook | Latest stable |
-| Git + Git LFS | Latest stable |
 
 ---
 
