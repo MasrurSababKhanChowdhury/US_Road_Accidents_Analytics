@@ -1,5 +1,4 @@
 # US Road Accident Analytics: ETL, Data Warehouse & Machine Learning
-
 ---
 
 ## 📋 Project Overview
