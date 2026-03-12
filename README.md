@@ -1,11 +1,5 @@
 # US Road Accident Analytics: ETL, Data Warehouse & Machine Learning
 
-[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-green)](https://www.python.org/)
-[![Pentaho](https://img.shields.io/badge/Pentaho-PDI-orange)](https://www.hitachivantara.com/en-us/products/pentaho-platform.html)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Complete-brightgreen)](#)
-
 ---
 
 ## 📋 Project Overview
