@@ -126,7 +126,7 @@ Leverage clean warehouse data to predict accident severity and discover hidden p
 | Model | Accuracy | Precision (Class 2) | Recall (Class 2) | F1-Score |
 |---|---|---|---|---|
 | **Decision Tree** | **83%** | 0.87 | 0.94 | 0.90 |
-| **XGBoost** | **87%** ⭐ | 0.89 | 0.96 | 0.92 |
+| **XGBoost** | **87%** | 0.89 | 0.96 | 0.92 |
 | **LightGBM** | **86%** | 0.88 | 0.96 | 0.92 |
 | Random Forest | 84% | — | — | — |
 | KNN | 81% | — | — | — |
@@ -137,7 +137,7 @@ Leverage clean warehouse data to predict accident severity and discover hidden p
 
 | Model | Silhouette Score | Davies-Bouldin Index |
 |---|---|---|
-| **Mean Shift Clustering** | **0.862** ⭐ | **0.222** |
+| **Mean Shift Clustering** | **0.862** | **0.222** |
 | K-Means Clustering | 0.415 | 1.076 |
 
 **5. Evaluation Metrics**
@@ -155,7 +155,7 @@ Leverage clean warehouse data to predict accident severity and discover hidden p
 - **Severity Level 3 (Serious):** 15.1% (1.1M cases)
 - **Severity Level 1 (Minor):** 2.0%
 - **Severity Level 4 (Severe):** 2.5% (rarest but most critical)
-- ⚠️ **Class Imbalance:** Severely skewed distribution — handled with SMOTE / Random Under-Sampling
+- **Class Imbalance:** Severely skewed distribution — handled with SMOTE / Random Under-Sampling
 
 ### 2. Geographic Hotspots
 
@@ -186,7 +186,7 @@ Leverage clean warehouse data to predict accident severity and discover hidden p
 | Pattern | Peak | Off-Peak |
 |---|---|---|
 | **Day of Week** | Friday (18% of weekly total) | Sunday (12%) |
-| **Hour (Weekday)** | 4–6 PM (evening rush) ⚠️ | 2–5 AM |
+| **Hour (Weekday)** | 4–6 PM (evening rush) | 2–5 AM |
 | **Month** | December–January | June–August |
 | **Season** | Winter | Summer |
 
@@ -202,9 +202,9 @@ Leverage clean warehouse data to predict accident severity and discover hidden p
 - Crossings: 1.6× higher risk
 
 **Protective Infrastructure:**
-- Speed Bumps: ~40% reduction in severity ✅
-- Traffic Calming Zones: ~35% reduction ✅
-- Roundabouts: ~25% reduction ✅
+- Speed Bumps: ~40% reduction in severity 
+- Traffic Calming Zones: ~35% reduction 
+- Roundabouts: ~25% reduction 
 
 ### 6. Distance vs. Severity
 
